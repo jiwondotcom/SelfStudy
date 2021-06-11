@@ -87,11 +87,11 @@ group by job
 ;
 ​
 
---26. 관리자 수를 출력하시오.
-select count(distinct mgr) as "관리자 인원" -- 중복 매니저 제거 :  distinct 활용
+--26. 관리자 수를 출력하시오. (상사)
+select count(distinct mgr) as "관리자(상사) 인원" -- 중복 관리자(상사) 제거 :  distinct 활용
 from emp
 ;
-​
+
 
 --27. 급여 최고액, 급여 최저액의 차액을 출력하시오.
 select max(sal) - min(sal) as "급여 최고최저 차액"
