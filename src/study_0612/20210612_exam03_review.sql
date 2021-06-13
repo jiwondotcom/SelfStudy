@@ -146,5 +146,5 @@ group by job, deptno
 order by deptno
 ;
 
-
+ 
 ​
