@@ -36,7 +36,7 @@ public class MemberCRUD {
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
-			return list; // list 반환
+		return list; // list 반환
 			   }
 	
 	
