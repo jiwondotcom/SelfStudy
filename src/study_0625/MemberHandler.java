@@ -90,7 +90,7 @@ public class MemberHandler {
 	String age1 = sc.nextLine();
 	isEmpty(age1); // 공란체크
 	int age = Integer.parseInt(age1);
-	// 문자열 값으로 입력받은 나이를 int 타입의 변수 age에 저장
+	// 문자열 값으로 입력받은 나이를 int타입의 변수 age에 저장
 	
 	
 	// 전화번호
