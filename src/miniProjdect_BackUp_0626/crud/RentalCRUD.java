@@ -28,7 +28,7 @@ public class RentalCRUD {
 
 	// 1. SELECT // 대여중인 모든 도서 가져오기: 관리자가 사용
 	public ArrayList<Book> bookList(Connection con) {
-
+ 
 		ArrayList<Book> bookList = new ArrayList<Book>();
 
 		Statement stmt = null;
