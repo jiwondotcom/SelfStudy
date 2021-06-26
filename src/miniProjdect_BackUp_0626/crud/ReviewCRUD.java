@@ -22,7 +22,7 @@ public class ReviewCRUD {
 
 		Statement stmt = null;
 		ResultSet rs = null;
-
+ 
 		try {
 			stmt = con.createStatement();
 			String sql = "SELECT * FROM REVIEW ORDER BY ReviewCode";
