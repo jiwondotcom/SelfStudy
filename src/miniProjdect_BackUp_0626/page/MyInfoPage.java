@@ -25,7 +25,7 @@ public class MyInfoPage implements Show {
                 		System.out.println();
                 		break;
                     case 2: // 회원 정보 수정
-                        mh.updateMember(member);
+                        mh.updateMember(member); 
                         System.out.println();
                         break;
                     case 3: // 회원 탈퇴

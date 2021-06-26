@@ -32,7 +32,7 @@ public class ReviewCRUD {
 				list.add(new Review(rs.getInt(1), rs.getInt(2), rs.getInt(3),
 						rs.getDouble(4), rs.getString(5)));
 			}
-
+ 
 		} catch (SQLException e) {
 			e.printStackTrace();
 		} finally {

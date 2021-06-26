@@ -27,7 +27,7 @@ public class ManagerPage implements Show {
                 menuButton = ScannerUtil.getInputIntegerS(">> 원하시는 메뉴를 선택하세요 : ");
                 bookList = bookCrud.getBookList(con);
                 memberList = memberCrud.getMemberList(con);
-
+ 
                 switch (menuButton) {
                     case 1: // 도서 추가
                     	managerHandler.addBook();

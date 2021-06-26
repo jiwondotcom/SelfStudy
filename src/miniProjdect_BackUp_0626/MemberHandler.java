@@ -14,7 +14,7 @@ import bookcase.util.MyMadeException;
 import bookcase.util.ScannerUtil;
 
 public class MemberHandler extends Common {
-
+ 
 	/**
 	 * MemberHandler클래스
 	 * 

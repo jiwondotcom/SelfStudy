@@ -33,7 +33,7 @@ public class RentalCRUD {
 
 		Statement stmt = null;
 		ResultSet rs = null;
-
+ 
 		try {
 			stmt = con.createStatement();
 			String sql = "SELECT b.bookCode, b.bName, b.bWriter, b.bPublisher, "

@@ -31,7 +31,7 @@ public class ViewReviewCRUD {
 			while(rs.next()){
 				list.add(new ViewReview(rs.getString(1), rs.getString(2), rs.getInt(3),
 						rs.getString(4)));
-			}
+			} 
 					
 		} catch (SQLException e) {
 			e.printStackTrace();

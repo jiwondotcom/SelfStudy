@@ -32,7 +32,7 @@ public class MemberCRUD {
 			CloseUtil.close(stmt);
 			CloseUtil.close(rs);
 		}	
-		return list;
+		return list; 
 	}
 
 	// 2. INSERT 메소드

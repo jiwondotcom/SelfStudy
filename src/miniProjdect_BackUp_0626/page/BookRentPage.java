@@ -37,4 +37,4 @@ public class BookRentPage extends Common implements Show {
 			}
 		}
 	}
-}
+} 

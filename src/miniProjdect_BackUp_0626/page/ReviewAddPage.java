@@ -38,7 +38,7 @@ public class ReviewAddPage implements Show {
 				default:
 					System.out.println("error : 잘못된 입력입니다.");
 					break;
-				}
+				} 
 
 			}catch (NumberFormatException e){
 				System.out.println("error : 숫자로 입력해주세요.");

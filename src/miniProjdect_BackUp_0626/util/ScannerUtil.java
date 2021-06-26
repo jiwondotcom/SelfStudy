@@ -28,7 +28,7 @@ public class ScannerUtil {
         Scanner scanner = new Scanner(System.in);
         return scanner.nextLine();
     }
-
+ 
     public static int getInputIntegerS(String s){
         System.out.print(s);
         Scanner scanner = new Scanner(System.in);

@@ -6,9 +6,9 @@ import bookcase.crud.*;
 import bookcase.object.*;
 import bookcase.show.*;
 import bookcase.util.*;
-
+  
 public class ReViewAdd extends Common implements Show {
-
+ 
 	private ReviewCRUD reviewCrud = ReviewCRUD.getInstance();
 	private ViewReviewCRUD viewReviewCrud = ViewReviewCRUD.getInstance();
 	private BookCRUD bookCrud = BookCRUD.getInstance();

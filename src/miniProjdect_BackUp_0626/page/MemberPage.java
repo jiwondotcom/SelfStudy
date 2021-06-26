@@ -23,7 +23,7 @@ public class MemberPage extends Common implements Show {
                     case 1:
                         // 도서 목록 검색
                         new ShowBookListPage(member).showBookListStart();
-                        break;
+                        break; 
                     case 2:
                         // 도서 대여
                         new BookRentPage(member).BookUsingStart();

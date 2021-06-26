@@ -33,7 +33,7 @@ public class Member {
 	}
 	public void setmName(String mName) {
 		this.mName = mName;
-	}
+	} 
 	public int getAge() {
 		return age;
 	}

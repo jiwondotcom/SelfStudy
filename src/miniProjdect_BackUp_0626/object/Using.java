@@ -37,7 +37,7 @@ public class Using {
 
     public void setRentalDate(String rentalDate) {
         this.rentalDate = rentalDate;
-    }
+    } 
 
     public String getReturnDate() {
         return returnDate;

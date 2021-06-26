@@ -5,3 +5,4 @@ public class MyMadeException extends Exception {
 		super(msg);
 	}
 }
+ 

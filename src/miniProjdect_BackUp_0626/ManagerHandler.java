@@ -11,7 +11,7 @@ public class ManagerHandler extends Common implements Show {
 
 	private BookCRUD bookCrud = BookCRUD.getInstance();
 	private int chkAge;
-
+ 
 	public void addBook(){
 		bName = ScannerUtil.getInputStringS("▶ 도서명 : ");
 		if (checkSameBookName()) return;

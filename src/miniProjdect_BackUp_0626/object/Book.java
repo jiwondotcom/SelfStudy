@@ -30,7 +30,7 @@ public class Book {
     public void setBookCode(int bookCode) {
         this.bookCode = bookCode;
     }
-
+ 
     public String getbName() {
         return bName;
     }

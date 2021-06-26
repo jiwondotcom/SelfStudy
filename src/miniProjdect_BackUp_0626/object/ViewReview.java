@@ -35,7 +35,7 @@ public class ViewReview {
 	}
 	public void setrComment(String rComment) {
 		this.rComment = rComment;
-	}
+	} 
 	@Override
 	public String toString() {
 		return "▶ 도 서 명 : " + bName

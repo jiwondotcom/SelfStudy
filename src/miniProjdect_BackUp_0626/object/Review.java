@@ -35,7 +35,7 @@ public class Review {
 
 	public int getBookCode() {
 		return bookCode;
-	}
+	} 
 
 	public void setBookCode(int bookCode) {
 		this.bookCode = bookCode;

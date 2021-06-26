@@ -39,7 +39,7 @@ public class StartPage implements Show {
                     case 5: // 종료
                         System.out.println("[!] 책꽂이 서비스를 종료합니다");
                         break;
-                }
+                } 
             }catch (NumberFormatException e){
                 System.out.println("error : 숫자로 입력해주세요");
             }
