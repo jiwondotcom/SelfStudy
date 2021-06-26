@@ -18,7 +18,7 @@ public class MemberCRUD {
 		ArrayList<Member> list = new ArrayList<Member>();
 		Statement stmt = null;
 		ResultSet rs = null;
-		try {
+		try { 
 			stmt = con.createStatement();
 			String sql = "SELECT * FROM MEMBER ORDER BY MemberCode";
 			rs = stmt.executeQuery(sql);
