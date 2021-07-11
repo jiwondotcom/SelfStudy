@@ -10,7 +10,7 @@ public class Member2 {
 	private String birthDay;
 	private String address;
 	
-	
+	 
 	// 모든 정보를 저장하도록 하는 생성자
 	public Member2(String name, String phoneNum, String major, int grade, String email, String birthDay, String address) {
 		this.name = name;
