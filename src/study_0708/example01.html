@@ -7,7 +7,20 @@
     <title>Document</title>
     <script>
 
-        // prompt() 함수는 문자열만 입력이 가능하다.
+
+        // Number() 함수 : 숫자로 바꿀때 사용
+        // 문자열로 입력받고 숫자로 변환한다.
+        
+        // 변수를 선언합니다.
+        var input = prompt('숫자를 입력해주세요', '숫자');
+        var numberInput = Number(input);
+
+        // 출력합니다.
+        alert(typeof (numberInput) + ' : ' + numberInput);
+       
+       
+       
+        // prompt() 함수 : 문자열만 입력이 가능하다.
         // 아무리 숫자를 입력해도 문자열의 자료형 출력
       
         // 변수를 선언합니다.
