@@ -56,7 +56,7 @@ public class Member2 {
 	public static void main(String[] args) {
 	
 
-	Member2 m1 = new Member2("짱구", "010-1111-1111", "music", 3, "gg@gg.gg", "151011", "buchoen");
+	Member2 m1 = new Member2("짱구", "010-1111-1111", "music", 3, "gg@gg.gg", "151011", "bucheon");
 	m1.showInfo();
 	System.out.println("============================");
 	Member2 m2 = new Member2("짱아", "010-2222-2222", "art", 4, "aa@aa.aa");
