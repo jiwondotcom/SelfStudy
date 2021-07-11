@@ -11,42 +11,30 @@ public class Student {
 	public String getName() {
 		return name;
 	}
-
-
 	public void setName(String name) {
 		this.name = name;
 	}
-
-
+	
 	public int getKorScore() {
 		return KorScore;
 	}
-
-
 	public void setKorScore(int korScore) {
 		KorScore = korScore;
 	}
 
-
 	public int getEngScore() {
 		return EngScore;
 	}
-
-
 	public void setEngScore(int engScore) {
 		EngScore = engScore;
 	}
 
-
 	public int getMathScore() {
 		return MathScore;
 	}
-
-
 	public void setMathScore(int mathScore) {
 		MathScore = mathScore;
 	}
-
 
 	
 	public Student(String name, int korScore, int engScore, int mathScore) {
@@ -57,14 +45,17 @@ public class Student {
 	}
 
 	
+	// 총점 구하는 메소드
 	public int sumScores() {
 		return KorScore + EngScore + MathScore;
 	}
 	
+	// 평균 구하는 메소드
 	public int avgScores() {
 		return (KorScore + EngScore + MathScore) / 3;
 	}
 	 
+	// 총점과 평균을 구해 결과를 반환하는 메소드
 	public void stuExamInfo() {
 		System.out.println("이름 : " + name);
 		System.out.println("국어점수 : " + KorScore);
@@ -75,7 +66,8 @@ public class Student {
 	}
 
 	
-	
+	// Student 타입의 배열을 선언
+	// 요소를 저장할 수 있는 배열 인스턴스 생성
 	public static void main(String[] args) {
 		
 		Student[] stuArr = new Student[5];
