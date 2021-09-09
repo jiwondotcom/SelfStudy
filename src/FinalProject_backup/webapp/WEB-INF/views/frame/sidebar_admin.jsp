@@ -50,26 +50,28 @@
                                     </a>
                                     <div class="collapse" id="pagesCollapseError" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordionPages">
                                         <nav class="sb-sidenav-menu-nested nav">
-                                            <a class="nav-link" href='<c:url value="/admin/board/"/>'>커뮤니티 관리</a>
-                                            <a class="nav-link" href='<c:url value="/admin/board/"/>'>관리자 게시판</a>
+                                            <a class="nav-link" href='<c:url value="/admin/board/list"/>'>관리자 게시판</a>
+                                            <a class="nav-link" href='<c:url value="/admin/board/list"/>'>커뮤니티 관리</a>
                                         </nav>
                                     </div>
                                 </nav>
                             </div>
 
-                
-
-
                             <div class="sb-sidenav-menu-heading">payment</div>
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" href="<c:url value="/admin/allSales"/>">
                                 <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
                                 	전체 매출
+                            </a>
+                            <a class="nav-link" href="#">
+                                <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+                                Tables
                             </a>
                            <!--  <a class="nav-link" href="tables.html">
                                 <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
                                 Tables
                             </a> -->
                         </div>
+                        
                     </div>
                     <div class="sb-sidenav-footer">
                         <div class="small">Logged in as:</div>
